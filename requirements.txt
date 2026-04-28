@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+opensim
+chromadb
+pydantic
+requests
+python-dotenv
+huggingface_hub
+sounddevice
+scipy
+numpy
+pandas
+openpyxl
+SpeechRecognition
+PyAudio

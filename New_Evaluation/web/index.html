@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movement Evaluation</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Human Perceptual Evaluation</h1>
+      <h2>Voice-Controlled EMS Simulation System</h2>
+
+      <p>
+        Thank you for participating in this evaluation. You will watch <strong>10 short simulation videos</strong>.
+        The first 7 are predefined movements. The last 3 are custom movements generated during the session.
+      </p>
+
+      <p>For each video you will answer two questions:</p>
+
+      <h3>1. Whole Body Score (WBS)</h3>
+      <p>
+        Rate how well the simulation matches the intended movement on a scale of 1 to 5:
+      </p>
+      <table class="rubric-table">
+        <tr>
+          <td><strong>5</strong></td>
+          <td>The simulation follows the movement instruction well without redundant or strange movements</td>
+        </tr>
+        <tr>
+          <td><strong>4</strong></td>
+          <td>Generally follows the instruction (70–90%), but contains some minor errors</td>
+        </tr>
+        <tr>
+          <td><strong>3</strong></td>
+          <td>Follows the instruction 40–60% and contains one or two major errors</td>
+        </tr>
+        <tr>
+          <td><strong>2</strong></td>
+          <td>Shows some sign of following (20–30%), but is far from the goal</td>
+        </tr>
+        <tr>
+          <td><strong>1</strong></td>
+          <td>Does not follow the movement instruction at all</td>
+        </tr>
+      </table>
+
+      <h3>2. Body Part Quality (BPQ)</h3>
+      <p>
+        For each body part involved in the movement, classify how well it performed:
+      </p>
+      <ul>
+        <li><strong>Good</strong> - The body part follows the movement instruction well</li>
+        <li><strong>Partially Good</strong> - Follows the instruction partially, but has errors</li>
+        <li><strong>Bad</strong> - Does not follow the movement instruction at all</li>
+        <li><strong>Not Relevant</strong> - This body part is not involved and is not ridiculously moved</li>
+      </ul>
+
+      <p>
+        No prior knowledge of biomechanics or OpenSim is required. For the custom movements, please type the intended
+        movement
+        (what you asked the system) and select the relevant body parts before rating.
+      </p>
+
+      <div class="actions">
+        <a class="btn" href="/evaluate.html">Start Evaluation</a>
+        <a class="btn secondary" href="/results.html">View Results</a>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

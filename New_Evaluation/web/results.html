@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluation Results</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="header-row">
+        <h1>Evaluation Results</h1>
+        <a class="btn secondary" href="/">Back</a>
+      </div>
+
+      <div id="summaryCards" class="metrics-grid"></div>
+
+      <h2>WBS per Movement</h2>
+      <div class="table-wrap">
+        <table id="wbsTable">
+          <thead>
+            <tr>
+              <th>Command</th>
+              <th>Category</th>
+              <th>Mean WBS</th>
+              <th>Ratings</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>BPQ Summary (Hand)</h2>
+      <div class="table-wrap">
+        <table id="bpqSummaryHand">
+          <thead>
+            <tr>
+              <th>Finger</th>
+              <th>Good %</th>
+              <th>Partially Good %</th>
+              <th>Bad %</th>
+              <th>Relevant Ratings</th>
+              <th>Total Ratings</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>BPQ Summary (Soccer Kick)</h2>
+      <div class="table-wrap">
+        <table id="bpqSummarySoccer">
+          <thead>
+            <tr>
+              <th>Body Part</th>
+              <th>Good %</th>
+              <th>Partially Good %</th>
+              <th>Bad %</th>
+              <th>Relevant Ratings</th>
+              <th>Total Ratings</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>Custom Movements (per Participant)</h2>
+      <div class="table-wrap">
+        <table id="customByParticipant">
+          <thead>
+            <tr>
+              <th>Participant</th>
+              <th>Custom Slot</th>
+              <th>Intended Movement</th>
+              <th>WBS</th>
+              <th>BPQ (selected parts)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>Submitted Comments</h2>
+      <div class="table-wrap">
+        <table id="commentsTable">
+          <thead>
+            <tr>
+              <th>Participant</th>
+              <th>Submission ID</th>
+              <th>Comment</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h2>BPQ per Movement</h2>
+      <div id="bpqSection"></div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+
+</html>

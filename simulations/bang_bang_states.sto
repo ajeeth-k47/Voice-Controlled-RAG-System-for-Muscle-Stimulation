@@ -1,0 +1,8 @@
+Generated States
+version=1
+nRows=1
+nColumns=26
+inDegrees=yes
+endheader
+time	FCR/activation	FCU/activation	ECU_pre-surgery/activation	ECU_post-surgery/activation	EDM/activation	ECRB/activation	ECRL/activation	FDSI/activation	FDSM/activation	FDSR/activation	FDSL/activation	FDPI/activation	FDPM/activation	FDPR/activation	FDPL/activation	EDCL/activation	EDCR/activation	EDCM/activation	EDCI/activation	FPL/activation	APL/activation	EPB/activation	EPL/activation	EIP/activation	PL/activation
+0.000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.573000	0.573000	0.000000	0.000000	0.573000	0.573000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.573000	0.000000	0.000000	0.000000	0.000000	0.000000

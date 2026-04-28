@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movement Evaluation</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="card">
+      <div class="header-row">
+        <h1 id="stepTitle">Loading...</h1>
+        <span id="stepCounter" class="pill"></span>
+      </div>
+
+      <p id="commandLabel" class="command-label"></p>
+      <div id="customBlock" class="custom-block" style="display:none;">
+        <label for="intendedCommand"><strong>Intended movement (type what you asked the system)</strong></label>
+        <input id="intendedCommand" type="text" placeholder="e.g. Flex the index finger slowly" />
+
+        <h3>Select body parts to rate (BPQ)</h3>
+        <p class="hint">Choose only the relevant parts for this custom movement.</p>
+        <div id="bodyPartSelect"></div>
+      </div>
+
+      <div class="eval-layout">
+        <div class="video-box">
+          <video id="movementVideo" controls preload="metadata"></video>
+          <div id="customNoVideo" class="custom-no-video" style="display:none;">
+            <h3>Custom movement</h3>
+            <p class="hint">
+              Please interact with the system now (speak your custom movement command).
+              After the system generates the movement, come back and rate it below.
+            </p>
+          </div>
+        </div>
+
+        <div class="form-box">
+          <label for="participantId">Participant ID (optional)</label>
+          <input id="participantId" type="text" placeholder="e.g. P01" />
+
+          <label for="submissionComment">Comments (optional)</label>
+          <textarea id="submissionComment" placeholder="Add a final comment before submitting." rows="4"></textarea>
+
+          <h3>Whole Body Score (WBS)</h3>
+          <p class="hint">To what extent does this simulation correctly represent the intended movement?</p>
+          <div id="wbsContainer" class="wbs-options"></div>
+
+          <h3>Body Part Quality (BPQ)</h3>
+          <p class="hint">For each body part, classify how well it performed:</p>
+          <div id="bpqContainer"></div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a class="btn secondary" href="/">Back to Instructions</a>
+        <button id="prevBtn" class="btn secondary" type="button">Previous</button>
+        <button id="nextBtn" class="btn" type="button">Next</button>
+      </div>
+      <p id="statusMsg" class="status"></p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+
+</html>

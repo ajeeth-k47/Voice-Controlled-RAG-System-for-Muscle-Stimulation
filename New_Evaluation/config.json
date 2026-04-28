@@ -1,0 +1,96 @@
+{
+  "available_body_parts": [
+    "Thumb",
+    "Index Finger",
+    "Middle Finger",
+    "Ring Finger",
+    "Little Finger",
+    "Hip",
+    "Knee",
+    "Ankle",
+    "Foot"
+  ],
+  "movements": [
+    {
+      "id": "flex_index",
+      "command": "Flex the index finger",
+      "video": "flex_index.mp4",
+      "category": "Individual Finger Flexion",
+      "body_parts": ["Thumb", "Index Finger", "Middle Finger", "Ring Finger", "Little Finger"]
+    },
+    {
+      "id": "flex_middle",
+      "command": "Flex the middle finger",
+      "video": "flex_middle.mp4",
+      "category": "Individual Finger Flexion",
+      "body_parts": ["Thumb", "Index Finger", "Middle Finger", "Ring Finger", "Little Finger"]
+    },
+    {
+      "id": "flex_ring",
+      "command": "Flex the ring finger",
+      "video": "flex_ring.mp4",
+      "category": "Individual Finger Flexion",
+      "body_parts": ["Thumb", "Index Finger", "Middle Finger", "Ring Finger", "Little Finger"]
+    },
+    {
+      "id": "peace_sign",
+      "command": "Make a peace sign",
+      "video": "peace_sign.mp4",
+      "category": "Combination Movement",
+      "body_parts": ["Thumb", "Index Finger", "Middle Finger", "Ring Finger", "Little Finger"]
+    },
+    {
+      "id": "thumbs_up",
+      "command": "Make a thumbs up",
+      "video": "thumbs_up.mp4",
+      "category": "Combination Movement",
+      "body_parts": ["Thumb", "Index Finger", "Middle Finger", "Ring Finger", "Little Finger"]
+    },
+    {
+      "id": "close_hand",
+      "command": "Close the hand",
+      "video": "close_hand.mp4",
+      "category": "Combination Movement",
+      "body_parts": ["Thumb", "Index Finger", "Middle Finger", "Ring Finger", "Little Finger"]
+    },
+    {
+      "id": "soccer_kick",
+      "command": "Perform a soccer kick",
+      "video": "soccer_kick.mp4",
+      "category": "Lower Limb",
+      "body_parts": ["Hip", "Knee", "Ankle", "Foot"]
+    },
+    {
+      "id": "custom_1",
+      "command": "Custom movement 1",
+      "video": "custom_1.mp4",
+      "category": "Custom",
+      "custom": true,
+      "body_parts": []
+    },
+    {
+      "id": "custom_2",
+      "command": "Custom movement 2",
+      "video": "custom_2.mp4",
+      "category": "Custom",
+      "custom": true,
+      "body_parts": []
+    },
+    {
+      "id": "custom_3",
+      "command": "Custom movement 3",
+      "video": "custom_3.mp4",
+      "category": "Custom",
+      "custom": true,
+      "body_parts": []
+    }
+  ],
+  "wbs_rubric": {
+    "5": "The simulation follows the movement instruction well without redundant or strange movements",
+    "4": "Generally follows the instruction (70-90%), but contains some minor errors",
+    "3": "Follows the instruction 40-60% and contains one or two major errors",
+    "2": "Shows some sign of following (20-30%), but is far from the goal",
+    "1": "Does not follow the movement instruction at all"
+  },
+  "bpq_labels": ["Good", "Partially Good", "Bad", "Not Relevant"]
+}

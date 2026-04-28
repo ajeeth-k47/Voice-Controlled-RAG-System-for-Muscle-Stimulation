@@ -1,0 +1,19 @@
+.env
+.conda/
+__pycache__/
+*.pyc
+
+
+
+*_test.*
+test_*.py
+debug_*
+out.*
+temp_*
+
+# local OpenSim exports
+
+backend/test_motion*
+frontend/public/test_model.gltf
+frontend/public/*.gltf
+

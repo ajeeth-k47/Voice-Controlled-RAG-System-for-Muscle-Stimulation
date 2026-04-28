@@ -1,0 +1,41 @@
+
+Running Simulation for: peace_sign
+Using advanced multi-channel per-muscle parameterization!
+Target Muscles: ['FPL', 'FDSM', 'FDPI', 'FDSR', 'FDPR', 'FDPL']
+
+Muscle Activation:
+  --> MUSCLE SET: FPL | Activation Value: 0.7310 (from custom params)
+  --> MUSCLE SET: FDSM | Activation Value: 0.4510 (from custom params)
+  --> MUSCLE SET: FDPI | Activation Value: 0.2190 (from custom params)
+  --> MUSCLE SET: FDSR | Activation Value: 0.7310 (from custom params)
+  --> MUSCLE SET: FDPR | Activation Value: 0.7310 (from custom params)
+  --> MUSCLE SET: FDPL | Activation Value: 0.7310 (from custom params)
+Total muscles activated: 6
+
+Positioning hand for: peace_sign
+Applying Custom Generative Kinematics: {'MCP2_flex': 0.0, 'PIP_flex': 0.0, 'DIP_flex': 0.0, 'MCP2M_flex': 0.0, 'MPIP_flex': 0.0, 'MDIP_flex': 0.0, 'RCP2M_flex': 90.0, 'RPIP_flex': 90.0, 'RDIP_flex': 90.0, 'LCP2M_flex': 90.0, 'LPIP_flex': 90.0, 'LDIP_flex': 90.0, 'thumb_flex': 90.0, 'thumb_abd': 45.0}
+Activation State File saved to: D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\simulations\peace_sign_states.sto
+*** LOAD THIS .sto FILE IN OPENSIM USING 'File -> Load Motion' TO VALIDATE ACTIVATIONS! ***
+Simulation saved to: D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\simulations\peace_sign.osim
+Coordinate motion file saved to: D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\simulations\peace_sign_coords.mot
+Converting to .gltf for peace_sign -> D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\frontend\public\peace_sign.gltf
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\humerus.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\ulna.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\radius.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_scaph.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_lun.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_trpzm.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_trpzd.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_cap.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_pis.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_triq.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\r_ham.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers1.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers2.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers3.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers4.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers8.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers12.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers16.vtp
+Loading file D:\User\Ajeeth\Master Thesis\Voice controlled EMS simulation final\backend\osimConverters\Geometry\fingers17.vtp
+GLTF successfully generated for frontend view.
