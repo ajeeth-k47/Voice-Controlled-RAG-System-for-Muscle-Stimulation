@@ -1844,5 +1844,271 @@
         ]
       }
     ]
+  },
+  {
+    "submission_id": "sub_1777385271084",
+    "participant_id": "p08",
+    "comment": "I think based on the generated motions it makes some pose really well and some how some poses are not performed well and accurate although in total I think it generated good.",
+    "timestamp_utc": "2026-04-28T16:07:51.084355Z",
+    "responses": [
+      {
+        "movement_id": "flex_index",
+        "intended_command": null,
+        "wbs": 5,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "flex_middle",
+        "intended_command": null,
+        "wbs": 4,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Partially Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "flex_ring",
+        "intended_command": null,
+        "wbs": 4,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Partially Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "peace_sign",
+        "intended_command": null,
+        "wbs": 5,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "thumbs_up",
+        "intended_command": null,
+        "wbs": 5,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "close_hand",
+        "intended_command": null,
+        "wbs": 5,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "soccer_kick",
+        "intended_command": null,
+        "wbs": 2,
+        "bpq": [
+          {
+            "body_part": "Hip",
+            "label": "Partially Good"
+          },
+          {
+            "body_part": "Knee",
+            "label": "Bad"
+          },
+          {
+            "body_part": "Ankle",
+            "label": "Bad"
+          },
+          {
+            "body_part": "Foot",
+            "label": "Partially Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "custom_1",
+        "intended_command": "show me universal help sign",
+        "wbs": 2,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Bad"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Bad"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Bad"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "custom_2",
+        "intended_command": "show me OK Sign",
+        "wbs": 5,
+        "bpq": [
+          {
+            "body_part": "Thumb",
+            "label": "Good"
+          },
+          {
+            "body_part": "Index Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Middle Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ring Finger",
+            "label": "Good"
+          },
+          {
+            "body_part": "Little Finger",
+            "label": "Good"
+          }
+        ]
+      },
+      {
+        "movement_id": "custom_3",
+        "intended_command": "knee down punishment pose",
+        "wbs": 5,
+        "bpq": [
+          {
+            "body_part": "Knee",
+            "label": "Good"
+          },
+          {
+            "body_part": "Ankle",
+            "label": "Good"
+          },
+          {
+            "body_part": "Foot",
+            "label": "Good"
+          }
+        ]
+      }
+    ]
   }
 ]

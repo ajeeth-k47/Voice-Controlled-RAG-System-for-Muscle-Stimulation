@@ -49,9 +49,9 @@ function startEvaluatePage() {
 
   const WBS_RUBRIC = {
     5: "Follows well, no redundant/strange movements",
-    4: "Generally follows (70–90%), minor errors",
-    3: "Follows 40–60%, one or two major errors",
-    2: "Some sign of following (20–30%), far from goal",
+    4: "Generally follows (70-90%), minor errors",
+    3: "Follows 40-60%, one or two major errors",
+    2: "Some sign of following (20-30%), far from goal",
     1: "Does not follow the instruction at all",
   };
   const BPQ_LABELS = ["Good", "Partially Good", "Bad", "Not Relevant"];
