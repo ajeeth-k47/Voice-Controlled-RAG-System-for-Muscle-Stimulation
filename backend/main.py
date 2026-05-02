@@ -22,7 +22,7 @@ app = FastAPI(title="SERCS+ API")
 # Setup CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # For dev, allow all. In prod, lock this down.
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -59,36 +59,21 @@ def get_protocols():
 
 @app.post("/api/listen")
 def listen_for_command():
-    """
-    Records audio on the server (5s), transcribes it using Whisper,
-    and then processes the text as a command.
-    """
     print("Starting server-side recording...")
     text = listen_and_transcribe(duration=5)
     print(f"Transcribed: {text}")
-    
     if not text:
         return {"success": False, "message": "No speech detected or transcription failed."}
-        
-    # Reuse the command processing logic
-    # We can create a synthetic request object
     request = CommandRequest(text=text, use_llm=True)
     response = process_command(request)
-    
-    # Inject the transcribed text into the response so the frontend knows what was said
+    # showing the transcribed text in frontend so that user can see the command they asked for
     if isinstance(response, dict):
-        response["transcribed_text"] = text
-        
+        response["transcribed_text"] = text    
     return response
 
 @app.post("/api/command")
 def process_command(request: CommandRequest):
-    """
-    Process a natural language command.
-    - If use_llm is True and GROQ_API_KEY exists, use LLM for generative protocol.
-    - Falls back to Vector Search if LLM is unavailable or returns no result.
-    """
-    
+    # process the natural command if use_llm is true and the API key is valid
     # Check if we have an API key for Groq
     has_llm_key = "GROQ_API_KEY" in os.environ
     

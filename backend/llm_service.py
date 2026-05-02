@@ -122,13 +122,12 @@ def translate_user_input_to_anatomy(user_input):
         return user_input # Fallback
 
 def parse_intent_with_llm(user_input):
-    """
-    Uses LLM API to parse the user input into a standardized intent.
-    """
+   # Uses LLM API to parse the user input into a standardized intent.
+
     if not llm_client:
         return {"error": "LLM client not available. Please set GROQ_API_KEY."}
 
-    # FIRST PASS: Translate layman terms to anatomical descriptions
+    # FIRST PASS: Translate natural language to anatomical descriptions
     print(f"Original Input: {user_input}")
     anatomical_description = translate_user_input_to_anatomy(user_input)
     print(f"Anatomical Translation: {anatomical_description}")
@@ -206,7 +205,6 @@ def parse_intent_with_llm(user_input):
          }}
        }}"""
     else:
-        # UNIVERSAL OPENSIM INSTRUCTIONS
         # If the user loads a leg, arm, full body (like Rajagopal), or spine model, this logic will dynamically adapt.
         special_instructions = """
     1. ANALYZE the movement: Determine the gross anatomical action (e.g., knee flexion, shoulder abduction, hip extension).
