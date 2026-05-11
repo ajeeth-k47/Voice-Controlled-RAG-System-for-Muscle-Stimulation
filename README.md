@@ -1,4 +1,4 @@
-# **Voice Controlled EMS Simulation (Master Thesis)**
+# **Voice Controlled RAG system for muscle stimulation(Master Thesis)**
 
 This application allows users to simulate hand/body movements based on LLM generated responses using the OpenSim simulation tool. It uses `"llama-3.3-70b-versatile"` to generate information about muscles, EMS parameters, the corresponding muscle activation values for each muscle, and joint angles that trigger the user requested movement.
 
